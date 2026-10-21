@@ -2,7 +2,7 @@
 
 | ID | SHA256 | Filename | File Type | Tags | First Seen | VirusTotal Confirmed | Status | Notes |
 |----|--------|----------|-----------|------|------------|------------------------|--------|-------|
-| 001 | `0fa4177ccc1cc52febf7c54f98906a2bff941549473607c9e862333faea5ff05` | update.jar | jar/java | jvm-agent, runelite, runelure | 2026-10-06 | ⚠️ pending | ⚠️ pending | Not clearly VM-related — may not fit selection criteria |
+| 001 | `0fa4177ccc1cc52febf7c54f98906a2bff941549473607c9e862333faea5ff05` | update.jar | jar/java | jvm-agent, runelite, runelure | 2026-10-06 | ⚠️ pending | ⚠️ pending | |
 | 002 | `840244014ea8cfa9bcbfdbdc360b3a309ddea340fdf676a3ae26f806f97e21` | stage2_decoded.zip | zip | Astaroth, au3, banker, brasilengenharia, ecom-store, guildma, vmi3554028.con, taboserver-net | 2026-09-22 | ⚠️ pending | ⚠️ pending | |
 | 003 | `8c382f17397517bda1ac66533c8c40c571e1ec078c84a4b2d397fa2f34bdd1c4` | AntiSkidDLL.dll | dll | antivm, roblox | 2026-09-21 | ⚠️ pending | ⚠️ pending | Strong match — explicit antivm tag |
 | 004 | `cf0d4b3837b9a23fb46cbb0a90f5ecae6b7dcd5b1f13b9d4a5fe0de7cec85041` | RuntimeBroker.exe | exe | Loader, registry-persistence, RuntimeBroker, VMProtect, websocket-c2 | 2026-08-31 | ⚠️ pending | ⚠️ pending | VMProtect = packer, not confirmed anti-VM logic yet |
