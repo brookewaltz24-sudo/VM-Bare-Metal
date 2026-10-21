@@ -1,0 +1,24 @@
+### Before the run
+- [ ] Network adapter set to host-only/custom VMnet (not NAT/Bridged)
+- [ ] Copy/paste, drag-and-drop, and shared folders disabled
+- [ ] Guest reverted to clean, hardened snapshot
+- [ ] tcpdump running on CAPE VM, writing to a run-specific file
+- [ ] Fixed run duration confirmed (45 minutes)
+- [ ] VirusTotal has confirmed anti-VM capability (if sample is tagged VM-aware)
+- [ ] Sample SHA-256 verified against MalwareBazaar record
+
+### During the run
+- [ ] Sample submitted via CAPE
+- [ ] In-guest Procmon, Regshot (pre-shot taken), Autoruns, FakeNet-NG
+      all confirmed running (process + log file check)
+- [ ] Start time noted
+
+### After the run
+- [ ] Capture stopped at fixed duration
+- [ ] Regshot post-shot taken, Autoruns snapshot exported
+- [ ] Procmon exported to CSV
+- [ ] tcpdump stopped, pcap saved
+- [ ] Completion state classified (completed / exited early / crashed / dormant)
+- [ ] CAPE's own report pulled as secondary cross-check
+- [ ] Results recorded in comparison table
+- [ ] Guest reverted to clean snapshot again
