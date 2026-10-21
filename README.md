@@ -8,8 +8,8 @@ using modern tools and currently circulating samples.
 Only hashes, logs, and analysis are stored here.
 
 ## Status
-- Environments built, isolated, and validated (Milestone #1 complete, 10/19)
-- 15 candidate samples sourced from MalwareBazaar and vetted with capa
+- Environments built, isolated, and validated (Milestone #1 complete, 10/21)
+- 10 candidate samples sourced from MalwareBazaar and vetted with VirusTotal
 - Execution in progress — targeting 8–10 final samples across 3+ families
 - Milestone #2 (full execution, both environments): 11/9
 
