@@ -27,5 +27,3 @@ Samples sourced from MalwareBazaar for the VM vs. bare-metal comparison.
 - Every sample carries an explicit `anti-vm` / `vmdetect` / `VMDetectloader` tag, or is an injector/loader with VM-aware behavior.
 - Hashes are verified against MalwareBazaar and re-checked on the analysis machine immediately before each run.
 - Discarded samples are logged with reasons in `samples/discard-log.csv`.` tag, or is an injector/loader with VM-aware behavior.
-- Hashes are verified against MalwareBazaar and re-checked on the analysis machine immediately before each run.
-- Discarded samples are logged with reasons in `samples/discard-log.csv`.
